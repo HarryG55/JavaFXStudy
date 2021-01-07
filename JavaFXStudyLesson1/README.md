@@ -17,16 +17,16 @@ IDEA自带对JavaFX的支持，可以从其预设模板中直接选择生成即�
 3. 修改VM配置
     1. Run->Edit Configurations中，在Build and run（右上角）找到Modify options
     2. 选择 Add VM Option
-    3. 在VM Option配置中添加以下内容：
-
-    '''
-    --module-path
-    （添加包的路径，如E:\JavaFxStudy\lib）
-    --add-modules
-    javafx.controls,javafx.fxml
-    --add-exports
-    javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED
-    '''
+    3. 在VM Option配置中添加以下内容:
+       
+````
+--module-path
+（添加包的路径，如E:\JavaFxStudy\lib） 
+--add-modules 
+javafx.controls,javafx.fxml
+--add-exports
+javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED
+````
 4. 直接可运行
 
 ### 无VM配置方法
